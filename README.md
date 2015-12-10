@@ -3,7 +3,7 @@ from http://git.xfce.org/xfce/xfce4-panel
 
 ## Purpose
 
-This fork intended to fix the bug with xfce4-panel behavior when panel is used in dual monitor configuration (panel overlaps application maximized windows). The bug is described in details here: https://bugzilla.xfce.org/show_bug.cgi?id=10957
+This fork intended to fix the bug with xfce4-panel behavior when panel is used in dual monitor configuration (panel overlaps application maximized windows). The bug is described in details: https://forum.xfce.org/viewtopic.php?id=8802 and https://bugzilla.xfce.org/show_bug.cgi?id=10957
 
 ## Build Guide
 
