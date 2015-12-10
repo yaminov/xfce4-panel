@@ -1787,7 +1787,7 @@ panel_window_snap_edge_gravity (gint value,
 
   /* snap at the center */
   center = start + (end - start) / 2;
-  if (value >= center - 10 && value <= center + SNAP_DISTANCE)
+  if (value >= center - SNAP_DISTANCE && value <= center + SNAP_DISTANCE)
     return EDGE_GRAVITY_CENTER;
 
   return EDGE_GRAVITY_NONE;
