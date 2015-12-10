@@ -11,7 +11,7 @@ This fork intended to fix the bug with xfce4-panel behavior when panel is used i
 `sudo apt-get build-dep xfce4-panel`
 
 ### Configure
-`./autogen.sh --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --with-helper-path-prefix=/usr/lib/x86_64-linux-gnu`
+`./autogen.sh --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu`
 
 ### Build
 `make`
