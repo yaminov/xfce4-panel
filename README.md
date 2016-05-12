@@ -10,6 +10,10 @@ This fork intended to fix the bug with xfce4-panel behavior when panel is used i
 ### Install dependencies
 `sudo apt-get build-dep xfce4-panel`
 
+### Get sources
+`git clone https://github.com/yaminov/xfce4-panel.git`
+`git checkout yaminov/struts`
+
 ### Configure
 `./autogen.sh --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu`
 
@@ -18,6 +22,13 @@ This fork intended to fix the bug with xfce4-panel behavior when panel is used i
 
 ### Install
 `sudo make install`
+
+## Run
+
+After installation panel could be restarter by command
+`xfce4-panel -r`
+
+Uncheck "Span monitors" checkbox in Xfce Panel preferences dialog
 
 ## Old plugins compatibility
 
