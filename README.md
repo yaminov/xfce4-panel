@@ -28,7 +28,7 @@ This fork intended to fix the bug with xfce4-panel behavior when panel is used i
 After installation panel could be restarter by command
 `xfce4-panel -r`
 
-Uncheck "Span monitors" checkbox in Xfce Panel preferences dialog
+If builded panel doesn't work properly probably unchecking of "Span monitors" checkbox in Xfce Panel preferences dialog could help
 
 ## Old plugins compatibility
 
